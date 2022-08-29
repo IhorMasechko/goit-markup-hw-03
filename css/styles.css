@@ -1,0 +1,269 @@
+:root {
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --hero-text-color: #FFFFFF;
+    --nav-text-color: #2196F3;
+    --adress-text-color: rgba(255, 255, 255, 0.6);
+    --button-text-background: #F5F4FA;
+}
+
+
+body {
+    background: var(--hero-text-color);
+    color: var(--main-text-color);
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+
+.logo-link {
+
+    font-family: raleway, sans-serif;
+    text-decoration: none;
+}
+
+
+.logo-link { 
+    color: var(--nav-text-color);
+
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+
+.logo-top {
+    color: var(--main-text-color);
+}
+
+
+.logo-buttom {
+    color: var(--hero-text-color);
+}
+
+
+.site-nav {
+    color: var(--main-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+
+.site-nav:hover,
+.site-nav:focus {
+    color: var(--nav-text-color);
+}
+
+
+.site-nav-current {
+color: var(--nav-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+
+.link {
+    color: var(--secondary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+
+.link:hover,
+.link:focus {
+    color: var(--nav-text-color);
+}
+
+
+.main {
+    background-color: #2F303A;
+}
+
+
+.main-title {
+    color: var(--hero-text-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;   
+}
+
+
+.button-main {
+    color: var(--hero-text-color);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    display: block;
+    background: var(--nav-text-color);    
+}
+
+
+.button-main:hover,
+.button-main:focus {
+    color: var(--main-text-color);
+}
+
+
+.section-title {
+    color: var(--main-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+
+.advantages-subtitle {
+    color: var(--main-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+
+.advantages-text {
+    color: var(--secondary-text-color);
+
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.team-subtitle {
+    color: var(--main-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+
+.team-text {
+    color: var(--secondary-text-color);
+
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+
+.portfolio-subtitle {
+    color: var(--main-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+
+.portfolio-text {
+    color: var(--secondary-text-color);
+
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+
+.buttom {
+    background-color: #2F303A;
+}
+
+
+.location {
+    color: var(--hero-text-color);
+    
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+}
+
+
+.location:hover,
+.location:focus {
+    color: var(--nav-text-color)
+}
+
+
+.contacts {
+    color: var(--adress-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+}
+
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--nav-text-color);
+}
+
+
+.button-nav {
+    color: var(--main-text-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    background: var(--button-text-background);
+}
+
+
+.button-nav:hover, 
+.button-nav:focus{
+    color: var(--hero-text-color);
+    background: var(--nav-text-color);
+}
+
+
+.button-nav-current {
+    color: var(--hero-text-color);
+    background: var(--nav-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
