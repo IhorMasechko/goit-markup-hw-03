@@ -34,6 +34,7 @@ button {
 
 .logo-link {
 
+
     font-family: raleway, sans-serif;
     text-decoration: none;
 }
@@ -41,7 +42,7 @@ button {
 
 .logo-link { 
     color: var(--nav-text-color);
-
+    
     font-family: raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -51,11 +52,18 @@ button {
 
 
 .logo-top {
+    display: inline-block;
+    padding-top: 26px;
+    padding-bottom: 23px;
     color: var(--main-text-color);
 }
 
 
 .logo-buttom {
+
+    display: inline-block;
+    padding-top: 60px;
+    padding-bottom: 20px;
     color: var(--hero-text-color);
 }
 
@@ -88,7 +96,10 @@ color: var(--nav-text-color);
 
 .link {
     color: var(--secondary-text-color);
-
+    
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -110,12 +121,15 @@ color: var(--nav-text-color);
 .main-title {
     color: var(--hero-text-color);
 
+    margin-top: 0px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;   
+    text-transform: uppercase; 
+    margin-bottom: 30px;
+  
 }
 
 
@@ -132,19 +146,25 @@ color: var(--nav-text-color);
     letter-spacing: 0.06em;
     margin: 0 auto;
     display: block;
-    background: var(--nav-text-color);    
+    padding: 10px 32px;
+    border-radius: 4px;
+    background: var(--nav-text-color);
+
 }
 
 
 .button-main:hover,
 .button-main:focus {
     color: var(--main-text-color);
+    
 }
 
 
 .section-title {
     color: var(--main-text-color);
 
+    margin-top: 0px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -155,6 +175,8 @@ color: var(--nav-text-color);
 .advantages-subtitle {
     color: var(--main-text-color);
 
+    margin-top: 0px;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -165,13 +187,16 @@ color: var(--nav-text-color);
 .advantages-text {
     color: var(--secondary-text-color);
 
+    margin-top: 0px;
     font-size: 14px;
     line-height: 1.7;
+
 }
 
 .team-subtitle {
     color: var(--main-text-color);
 
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -180,7 +205,7 @@ color: var(--nav-text-color);
 
 .team-text {
     color: var(--secondary-text-color);
-
+    
     font-size: 16px;
     line-height: 1.19;
 }
@@ -189,6 +214,8 @@ color: var(--nav-text-color);
 .portfolio-subtitle {
     color: var(--main-text-color);
 
+    display: inline-block;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
@@ -199,6 +226,7 @@ color: var(--nav-text-color);
 .portfolio-text {
     color: var(--secondary-text-color);
 
+    display: inline-block;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -206,13 +234,16 @@ color: var(--nav-text-color);
 
 
 .buttom {
+    padding: 60px 1240px 161px 215px;
     background-color: #2F303A;
 }
 
 
 .location {
     color: var(--hero-text-color);
-    
+
+    display: inline-block;
+    margin-bottom: 9px;
     font-size: 14px;
     line-height: 1.7;
     font-style: normal;
@@ -227,6 +258,8 @@ color: var(--nav-text-color);
 
 .contacts {
     color: var(--adress-text-color);
+    display: inline-block;
+    margin-bottom: 6px;
     font-size: 14px;
     line-height: 1.7;
     font-style: normal;
@@ -241,6 +274,8 @@ color: var(--nav-text-color);
 
 .button-nav {
     color: var(--main-text-color);
+    display: inline-block;
+    margin-bottom: 50px;
 
     font-family: inherit;
     font-weight: 500;
@@ -248,6 +283,8 @@ color: var(--nav-text-color);
     line-height: 1.62;
     text-align: center;
     background: var(--button-text-background);
+    border-radius: 4px;
+    padding: 6px 22px;
 }
 
 
@@ -261,9 +298,64 @@ color: var(--nav-text-color);
 .button-nav-current {
     color: var(--hero-text-color);
     background: var(--nav-text-color);
+    display: inline-block;
+    margin-bottom: 50px;
 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    border-radius: 4px;
+    padding: 6px 22px;
+    
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1230px;
+}
+
+.main {
+    padding-top: 200px;
+    padding-bottom: 280px;
+    margin-bottom: 97px;
+}
+
+.advantages,
+.works {
+    margin-bottom: 94px;
+}
+
+.team {
+    padding-top: 96px;
+
+}
+
+.img {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.site {
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
