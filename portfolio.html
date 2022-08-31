@@ -14,31 +14,32 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container top">
             <a href="./index.html" class="logo-link" lang="en">Web<span class="logo-top" lang="en">Studio</span></a>
     
             <nav>
                 <ul class="site">
-                    <li><a href="./index.html" class="site-nav-current">Студия</a></li>
-                    <li><a href="./portfolio.html" class="site-nav">Портфолио</a></li>
-                    <li><a href="" class="site-nav">Контакты</a></li>
+                    <li class="nav"><a href="./index.html" class="site-nav-current">Студия</a></li>
+                    <li class="nav"><a href="./portfolio.html" class="site-nav">Портфолио</a></li>
+                    <li class="nav"><a href="" class="site-nav">Контакты</a></li>
                 </ul>
             </nav>
+            <div class="link-header">
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
     
-    
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </div>
     
         </div>
     
     </header>
 
-    
+
     <main>
-        <section class="work-list">
+        <section class="section work-list">
             <div class="container">
                 <h1 class="visually-hidden">Список работ компании</h1>
-                <ul class="navigation">
+                <ul class="filter">
                     <li><button type="button" class="button-nav-current">Все</button></li>
                     <li><button type="button" class="button-nav">Веб-сайты</button></li>
                     <li><button type="button" class="button-nav">Приложения</button></li>
@@ -47,75 +48,99 @@
                 </ul>
                 
                 <ul class="portfolio">
-                    <li>
+                    <li class="cards">
                         <a href="">
                             <img class="img-portfolio" src="./images/img.jpg" alt="ноутбук" width="370" height="294" />
-                            <h2 class="portfolio-subtitle">Технокряк</h2>
-                            <p class="portfolio-text">Веб-сайт</p>
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Технокряк</h2>
+                                <p class="portfolio-text">Веб-сайт</p>
+                            </div>
+                            
                         </a>
                 
                     </li>
-                    <li>
+                    <li class="cards">
                         <a href="">
                             <img class="img-portfolio" src="./images/img-2.jpg" alt="игра в баскетбол" width="370" height="294" />
-                            <h2 class="portfolio-subtitle">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                            <p class="portfolio-text">Дизайн</p>
-                
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                                <p class="portfolio-text">Дизайн</p>
+                            </div>
+                            
                         </a>
                     </li>
-                    <li>
+                    <li class="cards">
                         <a href="">
                             <img class="img-portfolio" src="./images/img-3.jpg" alt="вывеска ресторана" width="370" height="294" />
-                            <h2 class="portfolio-subtitle">Ресторан <span lang="en">Seafood</span></h2>
-                            <p class="portfolio-text">Приложение</p>
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Ресторан <span lang="en">Seafood</span></h2>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
                 
                         </a>
                     </li>
-                    <li>
+                    <li class="cards">
                         <a href="">
                             <img class="img-portfolio" src="./images/img-4.jpg" alt="наушники" width="370" height="294" />
-                            <h2 class="portfolio-subtitle">Проект <span lang="en">Prime</span></h2>
-                            <p class="portfolio-text">Маркетинг</p>
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Проект <span lang="en">Prime</span></h2>
+                                <p class="portfolio-text">Маркетинг</p>
+                            </div>
+                            
                 
                         </a>
                     </li>
-                    <li>
+                    <li class="cards">
                         <a href="">
                             <img class="img-portfolio" src="./images/img-5.jpg" alt="картонная коробка" width="370" height="294" />
-                            <h2 class="portfolio-subtitle">Проект <span lang="en">Boxes</span></h2>
-                            <p class="portfolio-text">Приложение</p>
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Проект <span lang="en">Boxes</span></h2>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
+                           
                 
                         </a>
                     </li>
-                    <li>
+                    <li class="cards">
                         <a href="">
                             <img class="img-portfolio" src="./images/img-6.jpg" alt="монитор" width="370" height="294" />
-                            <h2 class="portfolio-subtitle" lang="en">Inspiration has no Borders</h2>
-                            <p class="portfolio-text">Веб-сайт</p>
-                
+                            <div class="border">
+                                <h2 class="portfolio-subtitle" lang="en">Inspiration has no Borders</h2>
+                                <p class="portfolio-text">Веб-сайт</p>
+
+                            </div>
+
                         </a>
                     </li>
-                    <li>
+                    <li class="cards">
                         <a href="">
                             <img class="img-portfolio" src="./images/img-7.jpg" alt="журнал" width="370" height="294" />
-                            <h2 class="portfolio-subtitle">Издание <span lang="en">Limited Edition</span></h2>
-                            <p class="portfolio-text">Дизайн</p>
-                
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Издание <span lang="en">Limited Edition</span></h2>
+                                <p class="portfolio-text">Дизайн</p>
+                            </div>
+                            
                         </a>
                     </li>
-                    <li>
+                    <li class="cards">
                         <a href="">
                             <img class="img-portfolio" src="./images/img-8.jpg" alt="бирка" width="370" height="294" />
-                            <h2 class="portfolio-subtitle">Проект <span lang="en">LAB</span></h2>
-                            <p class="portfolio-text">Маркетинг</p>
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Проект <span lang="en">LAB</span></h2>
+                                <p class="portfolio-text">Маркетинг</p>
+                            </div>
+                            
                 
                         </a>
                     </li>
-                    <li>
+                    <li class="cards">
                         <a href="">
                             <img class="img-portfolio" src="./images/img-9.jpg" alt="ноутбук" width="370" height="294" />
-                            <h2 class="portfolio-subtitle" lang="en">Growing Business</h2>
-                            <p class="portfolio-text">Приложение</p>
+                            <div class="border">
+                                <h2 class="portfolio-subtitle" lang="en">Growing Business</h2>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
+                            
                 
                         </a>
                     </li>
@@ -130,7 +155,7 @@
     </main>
 
     <footer class="buttom">
-        <div class="container">
+        <div class="container buttom">
             <a href="./index.html" class="logo-link" lang="en">Web<span class="logo-buttom" lang="en">Studio</span></a>
     
             <address>
@@ -148,6 +173,8 @@
         </div>
     
     </footer>
+
+
 
 </body>
 </html>
