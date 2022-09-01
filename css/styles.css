@@ -17,7 +17,7 @@
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */ */
 }
 
 
@@ -270,6 +270,9 @@ color: var(--nav-text-color);
 
 .buttom {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
 }
 
 
@@ -295,7 +298,7 @@ color: var(--nav-text-color);
     color: var(--adress-text-color);
     line-height: 1.7;
     font-style: normal;
-    margin-bottom: 6px;
+    margin-bottom: 9px;
 }
 
 
@@ -316,9 +319,13 @@ color: var(--nav-text-color);
     background: var(--button-text-background);
     border-radius: 4px;
     padding: 6px 22px;
-    margin-bottom: 34px;
+    margin-right: 8px;
 
 
+}
+
+.button-nav: :last-child {
+    margin-right: 0px;
 }
 
 
@@ -339,7 +346,7 @@ color: var(--nav-text-color);
     text-align: center;
     border-radius: 4px;
     padding: 6px 24px;
-    margin-bottom: 34px;
+    margin-right: 8px;
     
 }
 
@@ -363,8 +370,7 @@ color: var(--nav-text-color);
 }
 
 
-.img {
-    margin-bottom: 30px;
+.images {
     display: block;
     max-width: 100%;
     height: auto;
@@ -383,21 +389,9 @@ color: var(--nav-text-color);
 }
 
 
-.works {
-    padding: 0;
-
-}
-
-
-.container.buttom {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-
 .border {
     border: 1px solid #EEEEEE;
-    text-align: center;
+
 }
 
 
@@ -425,10 +419,14 @@ color: var(--nav-text-color);
 
 }
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
 
 .container.top {
     display: flex;
     align-items: center;
+
 }
 
 .text {
@@ -450,22 +448,21 @@ color: var(--nav-text-color);
 .img {
     display: flex;
     gap: 30px;
-    margin: auto;
 
 }
 
 .photo-team {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
 
 }
 
 .filter {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin-right: 8px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    
 
 }
 
@@ -477,5 +474,8 @@ color: var(--nav-text-color);
     background-color: #F5F4FA;
 }
 
-
+.text-team {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
