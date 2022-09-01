@@ -208,7 +208,6 @@ color: var(--nav-text-color);
 .advantages-subtitle {
     color: var(--main-text-color);
 
-    padding: 0;
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -281,7 +280,6 @@ color: var(--nav-text-color);
 
     display: inline-block;
     margin-top: 20px;
-    margin-bottom: 9px;
     font-size: 14px;
     line-height: 1.7;
     font-style: normal;
@@ -298,7 +296,6 @@ color: var(--nav-text-color);
     color: var(--adress-text-color);
     line-height: 1.7;
     font-style: normal;
-    margin-bottom: 9px;
 }
 
 
@@ -391,6 +388,8 @@ color: var(--nav-text-color);
 
 .border {
     border: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -479,3 +478,16 @@ color: var(--nav-text-color);
     padding-bottom: 30px;
 }
 
+.name-employee {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.section.advantages {
+    padding-bottom: 0;
+}
+
+.bottom-adress {
+    margin-bottom: 9px;
+}
