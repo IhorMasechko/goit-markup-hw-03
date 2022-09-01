@@ -17,6 +17,7 @@
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
+    outline: 1px solid blue;
 }
 
 
@@ -79,6 +80,7 @@ p {
 
 .logo-top {
     color: var(--main-text-color);
+    margin-right: 93px;
 
 }
 
@@ -129,12 +131,15 @@ color: var(--nav-text-color);
 
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    
     
 }
 
+
+.link:first-child {
+    margin-right: 50px;
+    margin-left: 310px;
+
+}
 
 
 .link:hover,
@@ -377,6 +382,7 @@ color: var(--nav-text-color);
     padding-bottom: 25px;
 }
 
+
 .works {
     padding: 0;
 
@@ -408,6 +414,7 @@ color: var(--nav-text-color);
 
 .nav {
     display: inline;
+    justify-content: flex-start;
     margin-right: 50px;
     
 }
@@ -421,7 +428,6 @@ color: var(--nav-text-color);
 
 .container.top {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -443,7 +449,8 @@ color: var(--nav-text-color);
 
 .img {
     display: flex;
-    justify-content: space-around;
+    gap: 30px;
+    margin: auto;
 
 }
 
