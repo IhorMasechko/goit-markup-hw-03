@@ -389,9 +389,11 @@ color: var(--nav-text-color);
 }
 
 
-.border {
+.border-cards {
     border: 1px solid #EEEEEE;
     padding-top: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
     padding-bottom: 20px;
 
 }
@@ -400,13 +402,10 @@ color: var(--nav-text-color);
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
 
 }
 
-.cards {
-    margin-bottom: 30px;
-}
 
 .nav {
     display: inline;
