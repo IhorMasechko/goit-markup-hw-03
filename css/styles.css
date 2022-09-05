@@ -17,7 +17,7 @@
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    outline: 1px solid blue; */ */
+    /* outline: 1px solid blue; */ */ */
 }
 
 
@@ -215,7 +215,6 @@ color: var(--nav-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    text-transform: uppercase;
 }
 
 
@@ -297,6 +296,7 @@ color: var(--nav-text-color);
 
 .contacts {
     color: var(--adress-text-color);
+    font-size: 14px;
     line-height: 1.7;
     font-style: normal;
 }
@@ -430,21 +430,12 @@ color: var(--nav-text-color);
 
 }
 
+
 .text-advantages {
     width: 270px;
-    margin-right: 30px;
 
 }
 
-.text-advantages:last-child {
-    margin-right: 0;
-}
-
- .container.advantages {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 .list-img {
     display: flex;
@@ -488,6 +479,11 @@ color: var(--nav-text-color);
 
 .section.advantages {
     padding-bottom: 0;
+}
+
+.list-advantages {
+    display: flex;
+    gap: 30px;
 }
 
 .bottom-adress {
