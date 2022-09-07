@@ -474,6 +474,14 @@ color: var(--nav-text-color);
 .name-employee {
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: var(--hero-text-color);
+
+}
+
+.img-employees {
+    display: block;
+    max-width: 100%;
+    height: auto;
 
 }
 
