@@ -64,6 +64,11 @@ p {
     text-decoration: none;
 }
 
+.nav-top {
+    display: flex;
+    align-items: center;
+}
+
 
 .logo-link { 
     color: var(--nav-text-color);
