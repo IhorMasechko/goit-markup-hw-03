@@ -53,6 +53,12 @@ p {
     margin: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -375,12 +381,6 @@ color: var(--nav-text-color);
     padding-bottom: 200px;
 }
 
-
-.images {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
 
 .img-portfolio {
     display: block;
