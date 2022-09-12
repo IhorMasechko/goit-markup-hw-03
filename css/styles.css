@@ -5,6 +5,7 @@
     --nav-text-color: #2196F3;
     --adress-text-color: rgba(255, 255, 255, 0.6);
     --button-text-background: #F5F4FA;
+    --button-active-background: #188CE8; 
 }
 
 .container {
@@ -203,7 +204,7 @@ color: var(--nav-text-color);
 
 .button-main:hover,
 .button-main:focus {
-    color: var(--main-text-color);
+    background-color: var(--button-active-background);
     
 }
 
